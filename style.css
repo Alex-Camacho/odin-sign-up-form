@@ -1,0 +1,157 @@
+@font-face {
+    font-family: 'Norse-Bold';
+    src:  url('/fonts/Norse-Bold.otf') format('woff2'),
+          url('/fonts/Norse-Bold.otf') format('woff');
+}
+
+:root {
+    --background-color: #e7a2a2;
+}
+
+body{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.left {
+    display: flex;
+    background-image: url(/img/narrow.jpg);
+    width: 40rem;
+    max-width: 33%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    width: 100em;
+    gap: 20px;
+    
+
+    font-family: 'Norse-Bold', sans-serif;
+    font-size: 60px;
+    color: white;
+    font-weight: bolder;
+    background-color: rgb(0, 0, 0, 0.6);
+}
+
+#logo {
+    width: 150px;
+    height: 150px;
+}
+
+
+
+
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    min-width: 30%;
+    background-color: var(--background-color);
+
+}
+
+.right div{
+    display: flex;
+    color: white;
+}
+
+.top{
+    flex-direction: column;
+    padding: 60px;
+    font-size: 20px;
+    height: 40%;
+    gap: 40px;
+}
+
+.mid {
+    background-color: #F16C6B;
+    padding: 60px;
+    gap: 120px;
+    height: 30%;
+    align-items: center;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+label {
+    margin-bottom: -15px;
+}
+
+input{
+    height: 30px;
+    width: 300px;
+    padding: 6px;
+    border: solid black 2px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+input:focus {
+    border: solid blue;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+input:invalid {
+    border: solid red 4px;
+}
+
+.midleft{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+
+.midright{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bottom {
+    flex-direction: column;
+    padding: 60px;
+    height: 40%;
+    font-size: 20px;
+}
+
+button {
+    width: 250px;
+    height: 60px;
+    border: solid white;
+    background-color: white;
+    border-radius: 7px;
+    font-size: larger;
+    font-weight: bolder;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: #e5d92e;
+    box-shadow: 0px 15px 20px rgba(229, 211, 46, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+
+  button:active{
+    background-color: yellow;
+  }
+
+#login {
+    color: #F16C6B
+}

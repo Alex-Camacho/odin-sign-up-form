@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-up form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="left">
+
+        <div class="header">
+            <img id="logo" src="/img/fxlogo.png" alt="bonefracture">
+             <h1>SPLASH</h1>
+        </div>
+
+    </div>
+    <div class="right">
+        <div class="top">
+            <h1>Suscribete a Splash:</h1>
+            <h2>¿Cansado de tardar en llegar a tus destinos? Con Splash llegarás 
+                volando (literalmente) a cualquier punto de la ciudad
+            en cuestión de segundos.
+            </h2>
+        </div>
+        <div class="mid">
+                    <form class="midleft" action="asd" method="post" id="form1">
+                        <label for="firstname">FIRST NAME*</label>
+                        <input type="text" name="firstname" id="firstname" placeholder="Jesús">
+                        <label for="email">EMAIL*</label>
+                        <input type="email" name="email" id="email" placeholder="mehagoelchulo@gmail.com">
+                        <label for="password">PASSWORD*</label>
+                        <input type="password" name="password" id="password">
+                    </form>
+
+                    <form class="midright" action="" method="post">
+                        <label for="lastname">LAST NAME*</label>
+                        <input type="text" name="lastname" id="lastname" placeholder="Villar">
+                        <label for="phonenumber">PHONE NUMBER</label>
+                        <input type="tel" name="phonenumber" id="phonenumber">
+                        <label for="confirmpassword">CONFIRM PASSWORD*</label>
+                        <input type="password" name="confirmpassword" id="confirmpassword">
+                    </form>
+        </div>
+        <div class="bottom">
+            <button type="submit" form="form1" value="submit">Create Account</button>
+            <h2>Already have an account? <span id="login">Log in</span></h2>
+        </div>
+    </div>
+    
+    <script src="myscript.js"></script>
+</body>
+</html>
