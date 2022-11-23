@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Norse-Bold';
-    src:  url('/fonts/Norse-Bold.otf') format('woff2'),
-          url('/fonts/Norse-Bold.otf') format('woff');
+    src:  url('fonts/Norse-Bold.otf') format('woff2'),
+          url('fonts/Norse-Bold.otf') format('woff');
 }
 
 :root {
@@ -17,7 +17,7 @@ body{
 
 .left {
     display: flex;
-    background-image: url(/img/narrow.jpg);
+    background-image: url(img/narrow.jpg);
     width: 40rem;
     max-width: 33%;
     height: 100vh;
